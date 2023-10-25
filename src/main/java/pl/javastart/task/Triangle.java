@@ -9,11 +9,7 @@ public class Triangle {
         this.height = height;
     }
 
-    public double getBase() {
-        return base;
-    }
-
-    public double getHeight() {
-        return height;
+    public double calculateTrianglePerimeter() {
+        return 0.5 * this.base * this.height;
     }
 }

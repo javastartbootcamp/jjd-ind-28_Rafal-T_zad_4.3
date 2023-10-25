@@ -9,11 +9,7 @@ public class Rectangle {
         this.b = b;
     }
 
-    public double getA() {
-        return a;
-    }
-
-    public double getB() {
-        return b;
+    public double calculateRectPerimeter() {
+        return this.a * this.b;
     }
 }

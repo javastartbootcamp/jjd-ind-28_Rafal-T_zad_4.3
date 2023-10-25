@@ -1,5 +1,7 @@
 package pl.javastart.task;
 
+import static java.lang.Math.PI;
+
 public class Circle {
     private final double r;
 
@@ -7,7 +9,8 @@ public class Circle {
         this.r = r;
     }
 
-    public double getR() {
-        return r;
+    public double calculateCircleArea() {
+        return PI * this.r;
     }
+
 }
